@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: black;
+    width: 99%;
+    min-height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    padding-left: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+/* Navigation */
+
+.logo img {
+    display: inline-flex;
+    align-items: flex-start;
+    height: 50px;
+    float: left;
+}
+
+.menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+a:link {
+    color: #e5dcd6;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #fff5ee;
+}
+
+a:hover {
+    color: #99938e;
+}
+
+a:active {
+    color: #fffeee;
+}
+
+/* Our Mission */
+
+#mission {
+    justify-content: center;
+    background-image: url('/Users/admin/Desktop/Alexandra/Code Academy Study/TeaCozy/resources/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100px;
+    justify-content: space-around;
+}
+
+/* Featured Tea */
+
+#featured-tea {
+    width: 1000px;
+}
+
+.row {
+    display: inline-flex;
+    justify-content: center;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.headline-item {
+    margin-top: 30px;
+}
+
+.item {
+    width: 300px;
+    height: 200px;
+    margin: 30px 15px 10px 15px;
+}
+
+#locations {
+    justify-content: center;
+    background-image: url('/Users/admin/Desktop/Alexandra/Code Academy Study/TeaCozy/resources/img-locations-background.jpg');
+    height: 500px;
+    width: 1200px;
+}
+
+.loc-head {
+    margin-bottom: 15px;
+}
+
+.ad-item {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: black;
+    line-height: 300%;
+    opacity: 1;
+}
+
+/* Footer */
+
+.contact {
+    height: 200px;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+.copy {
+    text-align: left;
+    margin: 20px;
+}
