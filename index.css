@@ -76,7 +76,7 @@ a:active {
 
 #mission {
     justify-content: center;
-    background-image: url('/Users/admin/Desktop/Alexandra/Code Academy Study/TeaCozy/resources/img-mission-background.jpg');
+    background-image: url('img-mission-background.jpg');
     height: 700px;
     width: 1200px;
 }
@@ -114,7 +114,7 @@ a:active {
 
 #locations {
     justify-content: center;
-    background-image: url('/Users/admin/Desktop/Alexandra/Code Academy Study/TeaCozy/resources/img-locations-background.jpg');
+    background-image: url('/img-locations-background.jpg');
     height: 500px;
     width: 1200px;
 }
